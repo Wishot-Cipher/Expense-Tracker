@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: #af4702;
-  height: 100vh;
+  height: 100%;
 }
 
 h1{
@@ -13,6 +13,13 @@ h2{
   background-color:rgb(29, 19, 8) ;
   color: white;
   border-radius: 10px;
+   position: sticky;
+  top: 0px;
+}
+.header{
+  background-color: #af4702;
+  position: sticky;
+  top: 0px;
 }
 .incomeList{
   height: 40px;

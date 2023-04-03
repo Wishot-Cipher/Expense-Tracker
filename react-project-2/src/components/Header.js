@@ -8,7 +8,7 @@ function Header({TotalIncome, setTotal, currency,setcurrency}) {
   }
 
   return (
-    <div>
+    <div className='header'>
         <header>
             <h1> Expense Tracker</h1>
             <h2>{currency ? "$"+(TotalIncome).toLocaleString() : "N"+(TotalIncome*750).toLocaleString()}<Button onClick={NairaHandler} variant="primary">{currency? "Naira" : "Dollar"}</Button></h2>
